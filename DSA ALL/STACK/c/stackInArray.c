@@ -39,6 +39,22 @@ void push(struct Stack* stack, int item)
         return;
     stack->array[++stack->top] = item;
     // printf("%d pushed to stack\n", item);
+
+    /*
+    DYNAMIC IMPLEMENTATION OF ARRAY IN STACK USING ARRAY IN PUSH FUNCTION
+
+        void push(struct Stack* stack, int item){
+            if (rear == capacity){
+                int *neData = new int[2 * capacity];
+                for(int i=0; i<capacity; i++){
+                    neData[i] = arr[i];
+                }
+                capacity *= 2;
+                delete [] arr;
+                *arr = neData;
+            }
+        }
+    */
 }
   
 // Function to remove an item from stack.  It decreases top by 1
