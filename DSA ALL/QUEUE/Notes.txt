@@ -1,0 +1,4 @@
+/*
+    1. IT WORKS USING FIFO
+    2. 
+*/

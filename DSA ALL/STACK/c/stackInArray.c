@@ -1,4 +1,3 @@
-// C program for array implementation of stack
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,7 +38,7 @@ void push(struct Stack* stack, int item)
     if (isFull(stack))
         return;
     stack->array[++stack->top] = item;
-    printf("%d pushed to stack\n", item);
+    // printf("%d pushed to stack\n", item);
 }
   
 // Function to remove an item from stack.  It decreases top by 1
