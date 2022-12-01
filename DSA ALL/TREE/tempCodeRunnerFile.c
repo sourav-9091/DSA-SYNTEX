@@ -1,0 +1,1 @@
+ // root->left = insert(root->left, data);
