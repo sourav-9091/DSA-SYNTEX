@@ -1,0 +1,7 @@
+Hash function consist of two parts
+
+1. Hash code -> It creates a hash code but not neccsarrily of bucket size 
+2. Compression function -> It takes the hash code and convert it into bucket size
+
+Lets say for the string "abc" the hash code could be the sum of the ascii value and then pass it through the compression function 
+then it will become bucket size
